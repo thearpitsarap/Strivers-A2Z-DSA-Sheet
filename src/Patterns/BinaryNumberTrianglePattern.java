@@ -1,3 +1,5 @@
+package Patterns;
+
 public class BinaryNumberTrianglePattern {
     public static void nBinaryTriangle(int n) {
         int t1 = 0;

@@ -1,3 +1,5 @@
+package Patterns;
+
 public class NumberCrownPattern {
     public static void numberCrown(int n) {
         for(int i=n;i>=0;i--){

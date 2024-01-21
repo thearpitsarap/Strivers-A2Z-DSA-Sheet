@@ -1,3 +1,5 @@
+package Patterns;
+
 public class DiamondStarPattern {
     public static void nStarDiamond(int n) {
         for(int i=0;i<n;i++){

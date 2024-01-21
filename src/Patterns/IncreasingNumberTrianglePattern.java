@@ -1,3 +1,5 @@
+package Patterns;
+
 public class IncreasingNumberTrianglePattern {
     public static void nNumberTriangle(int n) {
         int t = 1;

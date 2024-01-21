@@ -1,3 +1,5 @@
+package Patterns;
+
 public class HalfDiamondStarPattern {
     public static void nStarTriangle(int n) {
         for(int i=0;i<n;i++){
