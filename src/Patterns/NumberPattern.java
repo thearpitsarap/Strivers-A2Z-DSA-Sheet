@@ -19,7 +19,6 @@ public class NumberPattern {
         }
         
         int y = 2;
-        boolean flag = true; 
         for(int i=2;i<=n;i++){
             int m=n;
             for(int j=0;j<=n-i-1;j++){
