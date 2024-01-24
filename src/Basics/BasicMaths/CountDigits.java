@@ -16,6 +16,6 @@ public class  CountDigits {
         return t;
     }
     public static void main(String[] args) {
-        System.out.println(countDigits(660));;
+        countDigits(660);
     }
 }
