@@ -5,11 +5,11 @@ public class CountFrequencyInRange {
         int[] hash = new int[x+1];
         int arr[] = new int[n];
         for(int i=0;i<n;i++){
-            hash[nums[i]]++;    
+            hash[nums[i]]+=1;    
         }
-        for(int i=0;i<n;i++){
+        for(int i=0;i<Math.min(x,n);i++){
             arr[i]=hash[i+1];
-            System.out.println(arr[i]);
+            // System.out.println(arr[i]);
         }
         return arr;
     }
