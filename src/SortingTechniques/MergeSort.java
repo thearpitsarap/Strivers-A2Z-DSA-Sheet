@@ -5,7 +5,6 @@ public class MergeSort {
         for (int i = 0; i < n; i++) {
             System.out.println(A[i]);
         }
-        System.out.println();
     }
 
     public static void merge(int A[], int mid, int low, int high) {
