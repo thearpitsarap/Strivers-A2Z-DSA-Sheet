@@ -18,6 +18,7 @@ public class Merge2SortedArray {
         }
         
         Collections.sort(list);
+        @SuppressWarnings("rawtypes")
         Iterator it = list.iterator();
         while(it.hasNext()){
             System.out.print(it.next());
