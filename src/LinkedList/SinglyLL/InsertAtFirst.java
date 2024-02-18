@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SinglyLL;
 
 public class InsertAtFirst {
     public static Node insertAtFirst(Node list, int newValue) {

@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SinglyLL;
 
 public class TraverseLinkedList {
         public static void ll(){
