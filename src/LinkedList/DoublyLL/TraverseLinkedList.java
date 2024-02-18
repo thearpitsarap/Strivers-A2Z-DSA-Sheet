@@ -12,4 +12,12 @@ public class TraverseLinkedList {
             n=n.next;
         }
     }
+
+    public static void traverse(Node head){
+        Node n = head;
+        while(n!=null){
+            System.out.println(n.data);
+            n=n.next;
+        }
+    }
 }

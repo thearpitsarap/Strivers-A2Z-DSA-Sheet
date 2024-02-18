@@ -24,6 +24,5 @@ public class InserAtTail {
         Node head = x.constructLL(nums);
 
         insertAtTail(head, 560);
-        
     }
 }
