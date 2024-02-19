@@ -2,7 +2,7 @@ package LinkedList.DoublyLL;
 
 public class FormLinkedList {
     
-    class Node {
+    public class Node {
 
         public int data;
         public Node next;
