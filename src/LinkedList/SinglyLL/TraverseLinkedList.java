@@ -18,8 +18,4 @@ public class TraverseLinkedList {
                 temp = temp.next;
             }
         }
-    
-        public static void main(String[] args) {
-            ll();
-        }
     }
