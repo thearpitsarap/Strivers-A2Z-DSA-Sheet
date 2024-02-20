@@ -14,7 +14,7 @@ public class CreateLinkedList {
             mover.back = head;
             mover = x;
         }
-        // mover.next = head;  this is for creating LL having Loop
+        // mover.next = head;  //this is for creating LL having Loop
         return head;
     }
 }
