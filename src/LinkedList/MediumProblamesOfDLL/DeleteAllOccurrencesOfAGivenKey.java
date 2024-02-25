@@ -1,7 +1,8 @@
-package LinkedList.MediumProblamesLL;
+package LinkedList.MediumProblamesOfDLL;
 
 import LinkedList.DoublyLL.CreateLinkedList;
 import LinkedList.DoublyLL.FormLinkedList.Node;
+import LinkedList.MediumProblamesLL.TraverseLinkedList;
 
 public class DeleteAllOccurrencesOfAGivenKey {
     public static Node deleteAllOccurrences(Node head, int k) {
