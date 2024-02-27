@@ -11,7 +11,7 @@ public class CreateLinkedList {
         for(int i=1;i<nums.length;i++){
             Node x = t.new Node(nums[i]);
             mover.next = x;
-            mover.prev = head;
+            mover.prev = t.new Node(nums[i-1]);
             mover = x;
         }
         // mover.next = head;  //this is for creating LL having Loop

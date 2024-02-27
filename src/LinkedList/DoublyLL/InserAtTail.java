@@ -22,7 +22,6 @@ public class InserAtTail {
         CreateLinkedList x = new CreateLinkedList();
         int[] nums = {4, 10, 3, 5};
         Node head = x.constructLL(nums);
-
         insertAtTail(head, 560);
     }
 }
