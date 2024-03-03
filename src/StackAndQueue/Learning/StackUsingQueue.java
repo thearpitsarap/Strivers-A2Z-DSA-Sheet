@@ -1,4 +1,4 @@
-package StackAndQueue;
+package StackAndQueue.Learning;
 
 import java.util.*;
 

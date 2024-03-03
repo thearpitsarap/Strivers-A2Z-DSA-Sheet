@@ -1,4 +1,4 @@
-package StackAndQueue;
+package StackAndQueue.Learning;
 
 public class StackUsingArray {
     int temp = -1;

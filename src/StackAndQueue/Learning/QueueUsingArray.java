@@ -1,4 +1,4 @@
-package StackAndQueue;
+package StackAndQueue.Learning;
 
 public class QueueUsingArray {
     int[] arr = new int[6];
