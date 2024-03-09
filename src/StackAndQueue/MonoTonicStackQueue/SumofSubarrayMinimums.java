@@ -43,7 +43,7 @@ public class SumofSubarrayMinimums {
 
     public static int sumSubarrayMins(int[] arr) {
         long sum = 0;
-        long m = (long) (1e9 + 7); // Casting m to long
+        long m = (long) (1e9 + 7);
 
         int[] nsl = getNsl(arr);
         int[] rsl = getRsl(arr);
