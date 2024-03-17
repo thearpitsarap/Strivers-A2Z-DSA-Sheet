@@ -14,7 +14,6 @@ public class LargestRectangleInHistogram {
             result[i] = stack.isEmpty() ? i+1 : (i - stack.peek() - 1)+1;
             stack.push(i);
         }
-
         return result;
     }
 
