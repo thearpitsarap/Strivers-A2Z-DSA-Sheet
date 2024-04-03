@@ -23,5 +23,12 @@ public class ReverseStack {
 		}
 	}
 
-    
+    public static void main(String[] args) {
+        Stack<Integer> st = new Stack<>();
+        st.add(1);
+        st.add(0);
+        st.add(0);
+        st.add(8);
+        reverseStack(st);
+    }
 }
