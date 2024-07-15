@@ -13,17 +13,17 @@ class Node{
     }
 }
 
-public class DFS {
+public class BFS {
     
-    public static void dfs(Node root){
-        Stack<Node> st = new Stack<Node>();
-        st.push(root);
-        while(!st.isEmpty()){
-            System.out.println(st.peek().val);
-            Node curr = st.pop();
-            if(curr.right!=null || curr.left!=null) {
-             st.push(curr.right);
-             st.push(curr.left);   
+    public static void bfs(Node root){
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            System.out.println(q.peek().val);
+            Node curr = q.remove();
+            if(curr.left!=null || curr.right!=null){
+                q.add(curr.left);
+                q.add(curr.right);
             }
         }
     }
@@ -37,6 +37,6 @@ public class DFS {
         head.right.left = new Node(65);
         head.right.right = new Node(78);
         
-        dfs(head);
+        bfs(head);
     }
 }
