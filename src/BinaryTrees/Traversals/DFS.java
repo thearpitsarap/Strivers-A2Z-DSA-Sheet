@@ -16,7 +16,7 @@ class Node{
 public class DFS {
     
     public static void trav(Node root){
-        Stack<Node> st = new Stack();
+        Stack<Node> st = new Stack<Node>();
         st.push(root);
         while(!st.isEmpty()){
             System.out.println(st.peek().val);
