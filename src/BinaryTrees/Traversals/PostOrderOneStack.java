@@ -4,6 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+class Node{
+    int val;
+    Node left,right;
+    
+    Node(int v){
+        val=v;
+        left=null;
+        right=null;
+    }
+}
+
 public class PostOrderOneStack {
     public static List<Integer> postorderTraversal(Node root) {
         Stack<Node> st = new Stack<>();

@@ -5,6 +5,18 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+class Node{
+    int val;
+    Node left,right;
+    
+    Node(int v){
+        val=v;
+        left=null;
+        right=null;
+    }
+}
+
+
 public class OrderLevelTraversal {
     public static List<List<Integer>> levelOrder(Node root) {
         if(root==null){
