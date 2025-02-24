@@ -1,0 +1,34 @@
+package PlacementPractice;
+
+import java.util.Optional;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+@FunctionalInterface
+interface Greeting{
+    void sayHello();
+}
+
+public class Lambdas {
+    public static void main(String[] args) {
+        Greeting gt = ()->System.out.println("Hello");
+        // gt.sayHello();;
+
+        Consumer<Integer> cx = (num) -> System.out.println("Consumer Called " + num);
+        // cx.accept(23);
+
+        Supplier<Integer> sx = () -> 12;
+        // System.out.println(sx.get());
+
+        Function<Integer,Integer> fx = (num)->num*2;
+        // System.out.println(fx.apply(90));
+
+        Predicate<String> px = (val)->val.equals("Value");
+        // System.out.println(px.test("Value"));
+
+        Optional<String> ox = null;
+        System.out.println(ox);
+    }
+}
