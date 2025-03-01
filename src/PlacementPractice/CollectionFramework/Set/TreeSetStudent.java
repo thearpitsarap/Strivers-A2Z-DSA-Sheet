@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
-import PlacementPractice.CollectionFramework.Student;
+import PlacementPractice.CollectionFramework.Classes.Student;
 
 public class TreeSetStudent {
     public static void main(String[] args) {

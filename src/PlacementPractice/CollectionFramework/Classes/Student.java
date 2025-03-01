@@ -1,4 +1,4 @@
-package PlacementPractice.CollectionFramework;
+package PlacementPractice.CollectionFramework.Classes;
 
 import java.util.Objects;
 
@@ -34,7 +34,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public int hashCode(){
-        System.out.println("Hash Called " + Objects.hash(rollno,name));
+        // System.out.println("Hash Called " + Objects.hash(rollno,name));
         return Objects.hash(rollno,name);
     }
 
