@@ -19,8 +19,22 @@ public class Student implements Comparable<Student>{
     }
 
     @Override
+    public boolean equals(Object obj){
+        if(this == obj){
+            return true;
+        }
+
+        if(obj==null || !(obj instanceof Student)){
+            return false;
+        }
+
+        Student student = (Student)obj;
+        return (this.name==student.name && this.rollno==student.rollno);
+    }
+
+    @Override
     public int hashCode(){
-        System.out.println("Hash Called");
+        System.out.println("Hash Called " + Objects.hash(rollno,name));
         return Objects.hash(rollno,name);
     }
 

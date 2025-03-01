@@ -1,8 +1,10 @@
-package PlacementPractice.CollectionFramework;
+package PlacementPractice.CollectionFramework.Set;
 
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
+
+import PlacementPractice.CollectionFramework.Student;
 
 public class TreeSetStudent {
     public static void main(String[] args) {
