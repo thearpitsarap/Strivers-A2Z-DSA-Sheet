@@ -9,7 +9,7 @@ public class AnagramString {
         String s1 = "asar";
         String s2 = "asat";
         
-        Map<Character,Integer> map = new HashMap();
+        Map<Character,Integer> map = new HashMap<>();
         if(s1.length()!=s2.length()){
             System.out.println("False");
             return;
