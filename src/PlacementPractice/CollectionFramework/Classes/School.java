@@ -2,8 +2,8 @@ package PlacementPractice.CollectionFramework.Classes;
 
 import java.util.Objects;
 
-public class School {
-    String name;
+public class School implements Comparable<School>{
+    public String name;
     int code;
 
     School(){}
@@ -11,6 +11,11 @@ public class School {
     public School(String name, int code) {
         this.name = name;
         this.code = code;
+    }
+
+    @Override
+    public int compareTo(School obj){
+        return this.code-obj.code;
     }
 
     @Override
