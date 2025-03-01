@@ -29,6 +29,16 @@ public class Lambdas {
         // System.out.println(px.test("Value"));
 
         Optional<String> ox = null;
-        System.out.println(ox);
+        // System.out.println(ox);
+
+        String s1 = "Arpit";
+        String s2 = new String("Arpit");
+        
+        StringBuilder sb = new StringBuilder("Arpit");
+        StringBuilder sb1 = new StringBuilder("Arpit");
+        System.out.println(sb.equals(sb1));
+
+        // System.out.println(s1==s2);
+        // System.out.println(s1.equals(s2));
     }
 }
