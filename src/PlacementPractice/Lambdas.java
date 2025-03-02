@@ -32,10 +32,12 @@ public class Lambdas {
         System.out.println(ox);
 
         String s1 = "Arpit";
+        String s3 = "Arpit";
         String s2 = new String("Arpit");
         
         StringBuilder sb = new StringBuilder("Arpit");
         StringBuilder sb1 = new StringBuilder("Arpit");
+        System.out.println(s3==s1);
         System.out.println(sb.equals(sb1));
         System.out.println(sb1==sb);
 

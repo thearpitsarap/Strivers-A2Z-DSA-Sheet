@@ -23,8 +23,10 @@ public class HashMapStudent {
         map.put(s2,student1);
         map.put(s3,student2);
 
-        for(Map.Entry<School,Student> entrySet : map.entrySet()){
-            System.out.println(entrySet.getKey() + " " + entrySet.getValue());
-        }
+        // for(Map.Entry<School,Student> entrySet : map.entrySet()){
+        //     System.out.println(entrySet.getKey() + " " + entrySet.getValue());
+        // }
+
+        map.forEach((a,b)->System.out.println(a +" "+b));
     }
 }
