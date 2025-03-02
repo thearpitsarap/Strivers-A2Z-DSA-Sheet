@@ -2,7 +2,6 @@ package PlacementPractice.CollectionFramework.Map;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 import PlacementPractice.CollectionFramework.Classes.School;
 import PlacementPractice.CollectionFramework.Classes.Student;
@@ -24,10 +23,8 @@ public class HashMapStudent {
         map.put(s2,student1);
         map.put(s3,student2);
 
-        Set<School> set = map.keySet();
-
-        for(School a:set){
-            System.out.println(a + " " + map.get(a));
+        for(Map.Entry<School,Student> entrySet : map.entrySet()){
+            System.out.println(entrySet.getKey() + " " + entrySet.getValue());
         }
     }
 }
